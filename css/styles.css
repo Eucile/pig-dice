@@ -52,8 +52,8 @@ h3 {
   padding: 60px;
   border-radius: 15px;
   margin-top: 40px;
-  box-shadow: -20px 20px 200px -10px  #99ffff,
-              20px 20px 100px -10px #ff66ff;
+  box-shadow: -20px 20px 200px -10px  #e60000,
+              20px 20px 100px -10px #ff8000;
 }
 
 .player-data {
@@ -85,7 +85,7 @@ button {
   color: white;
   text-align: center;
   font-size: 70px;
-  font-weight: bolder;
+  font-family: 'Monoton', cursive;
 }
 
 .black-box {
