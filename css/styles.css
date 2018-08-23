@@ -52,6 +52,7 @@ h3 {
   padding: 60px;
   border-radius: 15px;
   margin-top: 40px;
+  box-shadow: 10px 20px 190px 10px  #cc0000;
 }
 
 .player-data {
@@ -66,6 +67,10 @@ body {
 
 img {
   height: 300px
+}
+
+button {
+  margin-top: 20px;
 }
 
 #pig {
