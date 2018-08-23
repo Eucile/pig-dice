@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a computer generated dice game. Two players race to earn 100 points by rolling dice.
+Launched on [GitHub Pages](https://eucile.github.io/pig-dice/). This is a computer generated dice game. Two players race to earn 100 points by rolling dice.
 
 ### Behavior Driven Development Specifications
 
