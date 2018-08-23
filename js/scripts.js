@@ -1,4 +1,3 @@
-
 // Business Logic
 var roll = function () {
   return Math.floor(6 * Math.random()) + 1;
@@ -68,14 +67,11 @@ Player.prototype.hold = function() {
   this.roll = 0;
   this.turnTotal = 0;
   switchPlayer();
-  if(this.playerTotal >= 2) {
+  if(this.playerTotal >= 100) {
     $(".winner-modal").text(this.name);
     $("#myModal").modal('show');
-    }
-    // $(".winner").text("Player " + this.name + " is the WINNER! CHICKEN DINNER!");
-    // $(".jumbotron").show();
   }
-
+}
 
 // User-Interface Logic
 $(document).ready(function() {
