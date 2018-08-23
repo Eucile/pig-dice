@@ -55,6 +55,7 @@ Player.prototype.updateTurn = function() {
   if(this.roll === 1) {
     this.turnTotal = 0;
     switchPlayer();
+    this.roll = 0;
     $("#message").text("You rolled a 1. Switch!");
   } else if ((this.roll > 1) && (this.roll < 7)) {
     this.turnTotal += this.roll;
@@ -67,6 +68,7 @@ Player.prototype.hold = function() {
   this.roll = 0;
   this.turnTotal = 0;
   switchPlayer();
+  $("#progress-1").css("width", this.playerTotal);
   if(this.playerTotal >= 100) {
     $(".winner-modal").text(this.name);
     $("#myModal").modal('show');
