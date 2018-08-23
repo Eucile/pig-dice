@@ -1,6 +1,6 @@
 
 .progress-bar {
-  width: player1.playerTotal;
+  background-color:
 }
 
 .image-col {
@@ -52,7 +52,8 @@ h3 {
   padding: 60px;
   border-radius: 15px;
   margin-top: 40px;
-  box-shadow: 10px 20px 190px 10px  #cc0000;
+  box-shadow: -20px 20px 200px -10px  #99ffff,
+              20px 20px 100px -10px #ff66ff;
 }
 
 .player-data {
