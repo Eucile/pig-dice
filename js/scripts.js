@@ -68,8 +68,7 @@ Player.prototype.hold = function() {
   this.roll = 0;
   this.turnTotal = 0;
   switchPlayer();
-  $("#progress-1").css("width", this.playerTotal);
-  $("#progress-2").css("width", this.playerTotal);
+  $("#progress-" + this.name).css("width", this.playerTotal);
   if(this.playerTotal >= 100) {
     $(".winner-modal").text(this.name);
     $("#myModal").modal('show');
